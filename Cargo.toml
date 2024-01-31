@@ -3,6 +3,7 @@
 members = [
   "moolah-cli",
   "moolah-core",
+  "moolah-tui",
 ]
 
 default-members = ["moolah-cli"]
