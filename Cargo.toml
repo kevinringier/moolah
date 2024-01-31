@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+  "moolah-cli",
+  "moolah-core",
+]
+
+default-members = ["moolah-cli"]
+
+resolver = "2"
