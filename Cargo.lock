@@ -360,6 +360,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "map_for"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0a7d511d0c9916ba93f2d36235f611443799f8537d6e9fd03d61e8446adbbaf0"
+
+[[package]]
 name = "memchr"
 version = "2.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -378,6 +384,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "moolah-api"
+version = "0.1.0"
+
+[[package]]
 name = "moolah-cli"
 version = "0.1.0"
 dependencies = [
@@ -388,6 +398,7 @@ dependencies = [
 name = "moolah-core"
 version = "0.1.0"
 dependencies = [
+ "map_for",
  "rust_decimal",
  "rust_decimal_macros",
 ]

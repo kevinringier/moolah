@@ -1,6 +1,6 @@
 [workspace]
 
-members = [
+members = [ "moolah-api",
   "moolah-cli",
   "moolah-core",
   "moolah-tui",
